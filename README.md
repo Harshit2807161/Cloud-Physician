@@ -83,7 +83,6 @@ A separate YOLOv5 model was used to detect and crop the heart rate graph from th
 This project demonstrates the potential for accurate vital extraction from low-resource medical settings using open-source models and techniques. Future work may explore zero-shot or few-shot learning to generalize the model across more diverse environments.
 
 ## Contact
-For any questions or further inquiries, please feel free to reach out to the project contributors.
-
+For any questions or further inquiries, please feel free to reach out to me at harshit_2101mc20@iitp.ac.in
 ---
 
