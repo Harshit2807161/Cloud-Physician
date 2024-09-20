@@ -6,7 +6,7 @@
 This project automates the extraction of medical vitals from monitor images using a deep learning-based pipeline. The model processes an unlabeled monitor image to output vital signs like heart rate and oxygen levels. Our approach integrates YOLOv5 for monitor detection, InceptionV3 for classification, XGBoost for vital type classification, and EasyOCR for digit recognition. The system delivers reliable accuracy in identifying vitals, with confidence scores ranging from 0.9 to 0.97. The proposed model is scalable and can handle challenges such as variations in monitor angle, shape, and background color.
 
 ## Pipeline Overview
-![Pipeline Diagram](image.png)
+![Pipeline Diagram](Flowchart.png)
 
 1. **Monitor Detection (YOLOv5)**  
    The YOLOv5 model is used to detect and crop out the monitor from an input image. The system identifies the bounding box for the monitor, selecting the one with the highest confidence score.
