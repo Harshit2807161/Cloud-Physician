@@ -1,6 +1,6 @@
 ---
 
-# Vital Extraction from Monitor Images
+# Vital Extraction from ECG Monitor Images
 
 ## Abstract
 This project automates the extraction of medical vitals from monitor images using a deep learning-based pipeline. The model processes an unlabeled monitor image to output vital signs like heart rate and oxygen levels. Our approach integrates YOLOv5 for monitor detection, InceptionV3 for classification, XGBoost for vital type classification, and EasyOCR for digit recognition. The system delivers reliable accuracy in identifying vitals, with confidence scores ranging from 0.9 to 0.97. The proposed model is scalable and can handle challenges such as variations in monitor angle, shape, and background color.
